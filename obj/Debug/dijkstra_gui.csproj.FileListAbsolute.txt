@@ -1,0 +1,10 @@
+C:\Users\acer\source\repos\dijkstra_gui\obj\Debug\dijkstra_gui.csprojAssemblyReference.cache
+C:\Users\acer\source\repos\dijkstra_gui\obj\Debug\dijkstra_gui.Form1.resources
+C:\Users\acer\source\repos\dijkstra_gui\obj\Debug\dijkstra_gui.Properties.Resources.resources
+C:\Users\acer\source\repos\dijkstra_gui\obj\Debug\dijkstra_gui.csproj.GenerateResource.cache
+C:\Users\acer\source\repos\dijkstra_gui\obj\Debug\dijkstra_gui.csproj.CoreCompileInputs.cache
+C:\Users\acer\source\repos\dijkstra_gui\bin\Debug\dijkstra_gui.exe.config
+C:\Users\acer\source\repos\dijkstra_gui\bin\Debug\dijkstra_gui.exe
+C:\Users\acer\source\repos\dijkstra_gui\bin\Debug\dijkstra_gui.pdb
+C:\Users\acer\source\repos\dijkstra_gui\obj\Debug\dijkstra_gui.exe
+C:\Users\acer\source\repos\dijkstra_gui\obj\Debug\dijkstra_gui.pdb
