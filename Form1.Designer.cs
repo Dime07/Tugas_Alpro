@@ -97,9 +97,8 @@
             this.keluaran.AutoSize = true;
             this.keluaran.Location = new System.Drawing.Point(12, 260);
             this.keluaran.Name = "keluaran";
-            this.keluaran.Size = new System.Drawing.Size(40, 13);
+            this.keluaran.Size = new System.Drawing.Size(0, 13);
             this.keluaran.TabIndex = 4;
-            this.keluaran.Text = "Tujuan";
             // 
             // button1
             // 

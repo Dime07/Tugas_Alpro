@@ -12,7 +12,7 @@ class GFG
     // value, from the set of vertices 
     // not yet included in shortest 
     // path tree 
-    static int V = 17;
+    static int V;
     public static int nilai;
 
     int minDistance(int[] dist,
@@ -120,53 +120,13 @@ class GFG
 
 
     // Driver Code 
-    public void utama (string kota1)
+    public void utama (string kota1,string kota2)
     {
         /* Let us create the example  
 graph discussed above */
-        int ab, af, ag, ba, bc, cb, cd, ce, dc, di, ec, ef, ei, fa, fe, fh, ga, gh, hf, hg, id, ie, al, dg, fg, gd, gf, hi, ih, ij, ji, jk, kl, la, lk, mh, kj, jg, io, mn, nm, np, oi, oq, pn, pq, qp, qo;
-        //int a, b, c, d, e, f, g, h, i, j, k, l, m;
-
-
-        ab = 106;
-        al = 39;
-        ba = 106;
-        bc = 56;
-        cb = 56;
-        cd = 42;
-        ce = 70;
-        dc = 42;
-        dg = 57;
-        ec = 70;
-        ef = 40;
-        fe = 40;
-        fg = 15;
-        gd = 57;
-        gf = 15;
-        gh = 64;
-        hi = 69;
-        hg = 64;
-        ih = 69;
-        ij = 71;
-        ji = 71;
-        jk = 37;
-        jg = 81;
-        kj = 37;
-        kl = 44;
-        la = 39;
-        lk = 44;
-        mh = 36;
-        mn = 32;
-        nm = 32;
-        np = 39;
-        pn = 39;
-        pq = 47;
-        qp = 47;
-        qo = 30;
-        oq = 30;
-        oi = 50;
-        io = 50;
-
+        
+        
+      
         int[,] graph = new int[,] { { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
                                     { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
                                     { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
@@ -185,48 +145,172 @@ graph discussed above */
                                     { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
                                     { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0} };
         GFG t = new GFG();
-
-        if (kota1 == "semarang")
+        if (kota1 == "Purworejo")
         {
-           
-            graph[0, 1] = ab;
-            graph[0, 11] = al;
-            graph[1, 0] = ba;
-            graph[1, 2] = bc;
-            graph[2, 1] = cb;
-            graph[2, 3] = cd;
-            graph[2, 4] = ce;
-            graph[3, 2] = dc;
-            graph[3, 6] = dg;
-            graph[4, 2] = ec;
-            graph[4, 5] = ef;
-            graph[5, 4] = fe;
-            graph[5, 6] = fg;
-            graph[6, 3] = gd;
-            graph[6, 5] = gf;
-            graph[6, 7] = gh;
-            graph[7, 8] = hi;
-            graph[7, 6] = hg;
-            graph[8, 7] = ih;
-            graph[8, 14] = io;
-            graph[8, 9] = ij;
-            graph[9, 8] = ji;
-            graph[9, 10] = jk;
-            graph[9, 6] = jg;
-            graph[10, 9] = kj;
-            graph[10, 11] = kl;
-            graph[11, 0] = la;
-            graph[11, 10] = lk;
-            graph[12, 7] = mh;
-            graph[12, 13] = mn;
-            graph[13, 12] = nm;
-            graph[13, 15] = np;
-            graph[14, 8] = oi;
-            graph[14, 16] = oq;
-            graph[15, 13] = pn;
-            graph[15, 16] = pq;
-            graph[16, 15] = qp;
-            graph[16, 14] = qo;
+            if (kota2 == "Berebes")
+            {
+                V = 10;
+
+                int ab = 42;
+                int bc = 56;
+                int be = 77;
+                int cd = 106;
+                int df = 35;
+                int fh = 32;
+                int hj = 41;
+                int eg = 42;
+                int gi = 42;
+                int ij = 111;
+                int gh = 99;
+                int de = 114;
+
+                graph[0, 1] = ab;
+                graph[1, 0] = ab;
+                graph[1, 2] = bc;
+                graph[1, 4] = be;
+                graph[2, 1] = bc;
+                graph[3, 2] = cd;
+                graph[3, 4] = de;
+                graph[3, 5] = df;
+                graph[4, 1] = be;
+                graph[4, 3] = de;
+                graph[4, 6] = eg;
+                graph[5, 3] = df;
+                graph[5, 7] = fh;
+                graph[6, 4] = eg;
+                graph[6, 7] = gh;
+                graph[6, 8] = gi;
+                graph[7, 5] = fh;
+                graph[7, 6] = gh;
+                graph[7, 9] = hj;
+                graph[8, 6] = gi;
+                graph[8, 9] = ij;
+                graph[9, 7] = hj;
+                graph[9, 8] = ij;
+
+            }
+            else if (kota2 == "Tegal")
+            {
+                V = 10;
+
+                int ab = 57;
+                int bc = 64;
+                int ce = 36;
+                int ef = 32;
+                int fg = 39;
+                int gh = 47;
+                int hi = 30;
+                int ij = 50;
+                int cj = 69;
+                int bd = 46;
+                int dj = 71;
+
+                graph[0, 1] = ab;
+                graph[1, 0] = ab;
+                graph[1, 2] = bc;
+                graph[1, 3] = bd;
+                graph[2, 1] = bc;
+                graph[2, 4] = ce;
+                graph[2, 9] = cj;
+                graph[3, 1] = bd;
+                graph[3, 9] = dj;
+                graph[4, 2] = ce;
+                graph[4, 5] = ef;
+                graph[5, 4] = ef;
+                graph[5, 6] = fg;
+                graph[6, 5] = fg;
+                graph[6, 7] = gh;
+                graph[7, 6] = gh;
+                graph[7, 8] = hi;
+                graph[8, 7] = hi;
+                graph[8, 9] = ij;
+                graph[9, 2] = cj;
+                graph[9, 3] = dj;
+                graph[9, 8] = ij;
+
+
+            }
+            else if (kota2 == "Jepara")
+            {
+                V = 8;
+
+                int ab = 57;
+                int bc = 64;
+                int be = 81;
+                int cd = 69;
+                int ef = 32;
+                int fh = 46;
+                int dg = 88;
+                int gh = 36;
+                int ed = 71;
+                int fg = 20;
+
+                graph[0, 1] = ab;
+                graph[1, 0] = ab;
+                graph[1, 2] = bc;
+                graph[1, 4] = be;
+                graph[2, 1] = bc;
+                graph[2, 3] = cd;
+                graph[3, 2] = cd;
+                graph[3, 4] = ed;
+                graph[3, 7] = dg;
+                graph[4, 1] = be;
+                graph[4, 3] = ed;
+                graph[4, 5] = ef;
+                graph[5, 4] = ef;
+                graph[5, 6] = fg;
+                graph[5, 7] = fh;
+                graph[6, 3] = dg;
+                graph[6, 5] = fg;
+                graph[6, 7] = gh;
+                graph[7, 5] = fh;
+                graph[7, 6] = gh;
+            }
+        }
+        else if (kota1 == "Pekalongan")
+        {
+            if (kota2 == "Cilacap")
+            {
+
+            }
+            else if (kota2 == "Klaten")
+            {
+
+            }
+            else if (kota2=="Karang Anyar")
+            {
+
+            }
+        }
+        else if (kota1 == "Berebes")
+        {
+            if (kota2 == "Purworejo")
+            {
+
+            }
+            else if (kota2 == "Grobogan")
+            {
+
+            }
+            else if (kota2 == "Rembang")
+            {
+
+            }
+        }
+        else if (kota1 == "Semarang")
+        {
+            if (kota2 == "Banyumas")
+            {
+
+            }
+            else if (kota2 == "Rembang")
+            {
+
+            }
+            else if (kota2 == "Pemalang")
+            {
+
+            }
         }
 
         t.dijkstra(graph, 0);

@@ -16,6 +16,9 @@ namespace dijkstra_gui
 
         public partial class Form1 : Form
     {
+        public string teks1, teks2;
+
+
         public Form1()
         {
             InitializeComponent();
@@ -28,35 +31,46 @@ namespace dijkstra_gui
 
         private void button1_Click(object sender, EventArgs e)
         {
+            teks1 = comboBox1.Text;
+            teks2 = comboBox2.Text;
             GFG algo = new GFG();
             if (comboBox1.SelectedItem == "Pekalongan")
             {
                 if (comboBox2.SelectedItem == "Cilacap")
                 {
-                    //algo.utama("semarang");
-                    //int nilai = int.Parse(keluaran.Text); 
+                    algo.utama(teks1, teks2);
 
-                    //int sekarang;
-                    //sekarang = GFG.nilai;
-                    //this.keluaran.Text = Convert.ToString(sekarang);
-
-                    //ini yang dibawah ini code untuk ngetes pengkondisian aja
+                    int harga, a;
                     string sekarang;
-                    sekarang = "pekalogan cilacap";
-                    this.keluaran.Text = sekarang;
+
+                    a = GFG.nilai;
+                    harga = ((a / 30) * 20000);
+                    sekarang = Convert.ToString(harga);
+                    this.keluaran.Text = "Rp." + sekarang;
                 }
                 else if (comboBox2.SelectedItem == "Klaten")
                 {
+                    algo.utama(teks1, teks2);
 
+                    int harga, a;
                     string sekarang;
-                    sekarang = "pekalogan klaten";
-                    this.keluaran.Text = sekarang;
+
+                    a = GFG.nilai;
+                    harga = ((a / 30) * 20000);
+                    sekarang = Convert.ToString(harga);
+                    this.keluaran.Text = "Rp." + sekarang;
                 }
                 else if (comboBox2.SelectedItem =="Karang Anyar")
                 {
+                    algo.utama(teks1, teks2);
+
+                    int harga, a;
                     string sekarang;
-                    sekarang = "pekalogan karang anyar";
-                    this.keluaran.Text = sekarang;
+
+                    a = GFG.nilai;
+                    harga = ((a / 30) * 20000);
+                    sekarang = Convert.ToString(harga);
+                    this.keluaran.Text = "Rp." + sekarang;
                 }
 
             }
@@ -64,21 +78,39 @@ namespace dijkstra_gui
             {
                 if (comboBox2.SelectedItem == "Purworejo")
                 {
+                    algo.utama(teks1, teks2);
+
+                    int harga, a;
                     string sekarang;
-                    sekarang = "Berebes purworejo";
-                    this.keluaran.Text = sekarang;
+
+                    a = GFG.nilai;
+                    harga = ((a / 30) * 20000);
+                    sekarang = Convert.ToString(harga);
+                    this.keluaran.Text = "Rp." + sekarang;
                 }
                 else if (comboBox2.SelectedItem == "Grobogan")
                 {
+                    algo.utama(teks1, teks2);
+
+                    int harga, a;
                     string sekarang;
-                    sekarang = "berebes gorobogan";
-                    this.keluaran.Text = sekarang;
+
+                    a = GFG.nilai;
+                    harga = ((a / 30) * 20000);
+                    sekarang = Convert.ToString(harga);
+                    this.keluaran.Text = "Rp." + sekarang;
                 }
                 else if (comboBox2.SelectedItem == "Rembang")
                 {
+                    algo.utama(teks1, teks2);
+
+                    int harga, a;
                     string sekarang;
-                    sekarang = "berebes rembang";
-                    this.keluaran.Text = sekarang;
+
+                    a = GFG.nilai;
+                    harga = ((a / 30) * 20000);
+                    sekarang = Convert.ToString(harga);
+                    this.keluaran.Text = "Rp." + sekarang;
                 }
 
             }
@@ -86,21 +118,39 @@ namespace dijkstra_gui
             {
                 if (comboBox2.SelectedItem == "Banyumas")
                 {
+                    algo.utama(teks1, teks2);
+
+                    int harga, a;
                     string sekarang;
-                    sekarang = "semarang banyumas";
-                    this.keluaran.Text = sekarang;
+
+                    a = GFG.nilai;
+                    harga = ((a / 30) * 20000);
+                    sekarang = Convert.ToString(harga);
+                    this.keluaran.Text = "Rp." + sekarang;
                 }
                 else if (comboBox2.SelectedItem == "Rembang")
                 {
+                    algo.utama(teks1, teks2);
+
+                    int harga, a;
                     string sekarang;
-                    sekarang = "semarang rembang";
-                    this.keluaran.Text = sekarang;
+
+                    a = GFG.nilai;
+                    harga = ((a / 30) * 20000);
+                    sekarang = Convert.ToString(harga);
+                    this.keluaran.Text = "Rp." + sekarang;
                 }
                 else if (comboBox2.SelectedItem == "Pemalang")
                 {
+                    algo.utama(teks1, teks2);
+
+                    int harga, a;
                     string sekarang;
-                    sekarang = "semarang pemalang";
-                    this.keluaran.Text = sekarang;
+
+                    a = GFG.nilai;
+                    harga = ((a / 30) * 20000);
+                    sekarang = Convert.ToString(harga);
+                    this.keluaran.Text = "Rp." + sekarang;
                 }
 
             }
@@ -108,21 +158,41 @@ namespace dijkstra_gui
             {
                 if (comboBox2.SelectedItem == "Tegal")
                 {
+
+                    algo.utama(teks1, teks2);
+
+                    int harga, a;
                     string sekarang;
-                    sekarang = "purworejo tegal";
-                    this.keluaran.Text = sekarang;
+
+                    a = GFG.nilai;
+                    harga = ((a / 30) * 20000);
+                    sekarang = Convert.ToString(harga);
+                    this.keluaran.Text = "Rp." + sekarang;
+
                 }
                 else if (comboBox2.SelectedItem == "Berebes")
                 {
+                    algo.utama(teks1, teks2);
+
+                    int harga, a;
                     string sekarang;
-                    sekarang = "purworejo berebes";
-                    this.keluaran.Text = sekarang;
+
+                    a = GFG.nilai;
+                    harga = ((a / 30) * 20000);
+                    sekarang = Convert.ToString(harga);
+                    this.keluaran.Text = "Rp." + sekarang;
                 }
                 else if (comboBox2.SelectedItem == "Jepara")
                 {
+                    algo.utama(teks1, teks2);
+
+                    int harga, a;
                     string sekarang;
-                    sekarang = "purworejo jepara";
-                    this.keluaran.Text = sekarang;
+
+                    a = GFG.nilai;
+                    harga = ((a / 30) * 20000);
+                    sekarang = Convert.ToString(harga);
+                    this.keluaran.Text = "Rp." + sekarang;
                 }
 
             }
